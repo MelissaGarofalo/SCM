@@ -1,0 +1,104 @@
+Source Code Management
+Definition of Source Code Management
+A Source Code Management (SCM) is a software tool used by programmers to manage the source codes.
+
+SCMs are used to give versions/revisions to the program. Each version is given a timestamp and includes the person responsible for the change. Even various versions can be compared and merged with other versions. This is why SCM is also referred to Version Control, Revision Control or Source Control.
+
+You would have probably made up your own version control system without realizing it. Got any of these? Here are some of mine.
+
+Ankesh_Resume_Sept2017.doc
+Ankesh_Resume_Dec2017.doc
+Ankesh_Resume_Mar2018.doc
+Its why we use “Save As” when we want a new file without changing the old one.
+
+ 
+
+Basics of Source Code Management
+Whether you are writing a simple application or a collaborating on a large software development, source control is a vital component of the Software Development Life Cycle (SDLC). It allows you to track your code changes and also check the revision history of the code which is used when you need to roll back the changes.
+
+With Source Code Management, you can collaborate with your team or isolate your code and make changes without hampering the changes made by your teammates until the code is ready.
+
+Even the troubleshooting becomes easy as you know who made the changes and what are those changes. Source Code Management helps streamlined the software development process and provided a centralized source for your code.
+
+ 
+
+Features of Source Code Management
+Below are some of the basic features of a source code management system:
+
+Authenticated access for commits
+Revision history on files
+Atomic commits of multiple files
+Versioning/Tagging
+ 
+
+Why do we need Source Code Management?
+We can save the file with a different name if it’s our school project or one-time papers but for a well-equipped software development? Not a chance.
+
+Big projects need a version control system to track the changes and avoid misunderstanding. A good SCM does the following:
+
+Backup and Restore – Files can be saved at any moment and can be restored from the last saved.
+Synchronization – Programmers can get the latest code and fetch the up-to-date codes from the repository.
+Short-Term Undo – Working with a file and messed it up. We can do a short-term undo to the last known version.
+Long-Term Undo – It helps when we have to make a release version rollback. Something like going to the last version which was created a year
+Track Changes – We can track the changes as when anyone is making any change, he can leave a commit message as for why the change was done.
+Ownership – With every commit made to the master branch, it will ask the owner permission to merge it.
+Branching and Merging – You can create a branch of your source code and create the changes. Once the changes are approved, you can merge it with the master branch.
+ 
+
+Types of Version Control Systems
+There are two main types of Version Control System i.e. Centralized and Decentralized (or Distributed).
+
+Centralized Version Control
+
+
+The main concept of Centralized Version Control is that it works in a client and server relationship. The repository is located in one place and allows access to multiple clients.
+
+It’s very similar to FTP where you have FTP clients which connect to FTP server. Here all the user changes and commits have to pass through the central server. For Ex: Subversion.
+
+The benefits of centralized version control are:
+
+It’s easy to understand.
+There are more GUI and IDE clients.
+You have more control over the users and access.
+We do have drawbacks also:
+
+It is dependent on the access to the server.
+It can be slower because every command from the client has to pass the server.
+Branching and merging strategies are difficult to use.
+Distributed Version Control
+
+
+These systems are newer to use. In Distributed Version Control, each user has their own copy of the entire repository as well as the files and history. For Ex: Git and Mercurial
+
+The benefits of distributed version control are:
+
+More powerful and easy change tracking.
+No need of a centralized server. Most of the functionalities work in offline mode also apart from sharing the repositories.
+Branching and Merging strategies are more easy and reliable.
+It’s faster than the other one.
+Though we have drawbacks:
+
+It is harder to understand.
+It’s new, so less GUI clients.
+It is easier to make mistakes until you are familiar with the model.
+ 
+
+Source Code Management / Version Control Tools
+There are various tools associated with Source Code Management. Below are the few widely used tools:
+
+GitHub
+GitLab
+BitBucket
+SourceForge
+Beanstalk
+Apache Allura
+AWS CodeCommit
+Launchpad
+Phabricator
+GitBucket
+Conclusion
+So, it depends on what the requirement is and how you work. If you are new, not comfortable with the command line and you are not with much of branching and merging, Subversion is recommended. Otherwise, get involved in Git or Mercurial and see if you like it.
+
+For more deep down into SCM, click here.
+
+Stay tuned @ linuxnix.com.
